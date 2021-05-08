@@ -1,0 +1,334 @@
+{
+ "fragments": [
+  {
+   "begin": "0.000", 
+   "children": [], 
+   "end": "2.160", 
+   "id": "f000001", 
+   "language": "eng", 
+   "lines": [
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+   ]
+  }, 
+  {
+   "begin": "2.160", 
+   "children": [], 
+   "end": "8.680", 
+   "id": "f000002", 
+   "language": "eng", 
+   "lines": [
+    "<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" lang=\"en\" xml:lang=\"en\">"
+   ]
+  }, 
+  {
+   "begin": "8.680", 
+   "children": [], 
+   "end": "8.720", 
+   "id": "f000003", 
+   "language": "eng", 
+   "lines": [
+    "<head>"
+   ]
+  }, 
+  {
+   "begin": "8.720", 
+   "children": [], 
+   "end": "8.800", 
+   "id": "f000004", 
+   "language": "eng", 
+   "lines": [
+    "<meta charset=\"utf-8\"/>"
+   ]
+  }, 
+  {
+   "begin": "8.800", 
+   "children": [], 
+   "end": "11.600", 
+   "id": "f000005", 
+   "language": "eng", 
+   "lines": [
+    "<meta name=\"viewport\" content=\"width=768,height=1024\"/>"
+   ]
+  }, 
+  {
+   "begin": "11.600", 
+   "children": [], 
+   "end": "13.280", 
+   "id": "f000006", 
+   "language": "eng", 
+   "lines": [
+    "<link rel=\"stylesheet\" href=\"../Styles/style.css\" type=\"text/css\"/>"
+   ]
+  }, 
+  {
+   "begin": "13.280", 
+   "children": [], 
+   "end": "13.280", 
+   "id": "f000007", 
+   "language": "eng", 
+   "lines": [
+    "<title>Sonnet I</title>"
+   ]
+  }, 
+  {
+   "begin": "13.280", 
+   "children": [], 
+   "end": "13.280", 
+   "id": "f000008", 
+   "language": "eng", 
+   "lines": [
+    "</head>"
+   ]
+  }, 
+  {
+   "begin": "13.280", 
+   "children": [], 
+   "end": "13.280", 
+   "id": "f000009", 
+   "language": "eng", 
+   "lines": [
+    "<body>"
+   ]
+  }, 
+  {
+   "begin": "13.280", 
+   "children": [], 
+   "end": "14.320", 
+   "id": "f000010", 
+   "language": "eng", 
+   "lines": [
+    "<div id=\"divTitle\">"
+   ]
+  }, 
+  {
+   "begin": "14.320", 
+   "children": [], 
+   "end": "16.880", 
+   "id": "f000011", 
+   "language": "eng", 
+   "lines": [
+    "<h1><span id=\"f001\">I</span></h1>"
+   ]
+  }, 
+  {
+   "begin": "16.880", 
+   "children": [], 
+   "end": "16.880", 
+   "id": "f000012", 
+   "language": "eng", 
+   "lines": [
+    "</div>"
+   ]
+  }, 
+  {
+   "begin": "16.880", 
+   "children": [], 
+   "end": "17.600", 
+   "id": "f000013", 
+   "language": "eng", 
+   "lines": [
+    "<div id=\"divSonnet\">"
+   ]
+  }, 
+  {
+   "begin": "17.600", 
+   "children": [], 
+   "end": "17.600", 
+   "id": "f000014", 
+   "language": "eng", 
+   "lines": [
+    "<p>"
+   ]
+  }, 
+  {
+   "begin": "17.600", 
+   "children": [], 
+   "end": "19.720", 
+   "id": "f000015", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f002\">From fairest creatures we desire increase,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "19.720", 
+   "children": [], 
+   "end": "22.520", 
+   "id": "f000016", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f003\">That thereby beauty\u2019s rose might never die,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "22.520", 
+   "children": [], 
+   "end": "25.520", 
+   "id": "f000017", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f004\">But as the riper should by time decease,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "25.520", 
+   "children": [], 
+   "end": "29.280", 
+   "id": "f000018", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f005\">His tender heir might bear his memory:</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "29.280", 
+   "children": [], 
+   "end": "32.040", 
+   "id": "f000019", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f006\">But thou contracted to thine own bright eyes,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "32.040", 
+   "children": [], 
+   "end": "35.520", 
+   "id": "f000020", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f007\">Feed\u2019st thy light\u2019s flame with self-substantial fuel,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "35.520", 
+   "children": [], 
+   "end": "36.600", 
+   "id": "f000021", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f008\">Making a famine where abundance lies,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "36.600", 
+   "children": [], 
+   "end": "39.280", 
+   "id": "f000022", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f009\">Thy self thy foe, to thy sweet self too cruel:</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "39.280", 
+   "children": [], 
+   "end": "40.560", 
+   "id": "f000023", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f010\">Thou that art now the world\u2019s fresh ornament,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "40.560", 
+   "children": [], 
+   "end": "42.280", 
+   "id": "f000024", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f011\">And only herald to the gaudy spring,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "42.280", 
+   "children": [], 
+   "end": "45.800", 
+   "id": "f000025", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f012\">Within thine own bud buriest thy content,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "45.800", 
+   "children": [], 
+   "end": "48.240", 
+   "id": "f000026", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f013\">And tender churl mak\u2019st waste in niggarding:</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "48.240", 
+   "children": [], 
+   "end": "50.720", 
+   "id": "f000027", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f014\">Pity the world, or else this glutton be,</span><br/>"
+   ]
+  }, 
+  {
+   "begin": "50.720", 
+   "children": [], 
+   "end": "52.120", 
+   "id": "f000028", 
+   "language": "eng", 
+   "lines": [
+    "<span id=\"f015\">To eat the world\u2019s due, by the grave and thee.</span>"
+   ]
+  }, 
+  {
+   "begin": "52.120", 
+   "children": [], 
+   "end": "52.120", 
+   "id": "f000029", 
+   "language": "eng", 
+   "lines": [
+    "</p>"
+   ]
+  }, 
+  {
+   "begin": "52.120", 
+   "children": [], 
+   "end": "52.120", 
+   "id": "f000030", 
+   "language": "eng", 
+   "lines": [
+    "</div>"
+   ]
+  }, 
+  {
+   "begin": "52.120", 
+   "children": [], 
+   "end": "52.120", 
+   "id": "f000031", 
+   "language": "eng", 
+   "lines": [
+    "</body>"
+   ]
+  }, 
+  {
+   "begin": "52.120", 
+   "children": [], 
+   "end": "53.200", 
+   "id": "f000032", 
+   "language": "eng", 
+   "lines": [
+    "</html>"
+   ]
+  }, 
+  {
+   "begin": "53.200", 
+   "children": [], 
+   "end": "53.240", 
+   "id": "f000033", 
+   "language": "eng", 
+   "lines": [
+    ""
+   ]
+  }
+ ]
+}

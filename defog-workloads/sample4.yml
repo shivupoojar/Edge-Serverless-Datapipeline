@@ -1,0 +1,15 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  sample4:
+    lang: python3-http-debian
+    handler: ./sample4
+    image: shivupoojar/sample4:latest
+    environment:
+      minio_hostname: "172.17.67.176:9000"
+      minio_access_key: "AKIAIOSFODNN7EXAMPLE"
+      minio_secret_key: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+      write_debug: true
+

@@ -1,0 +1,51 @@
+
+#!/bin/bash
+
+export nano=`date +%s%N`
+
+export OUT=/tmp/$nano.mp3
+
+
+while IFS='=' read -r -d '&' key value; do
+   export name=$key
+done <<EOF
+${Http_Query}&
+EOF
+
+echo ${name}
+cat - > ${OUT}
+
+bucket='aeneas'
+file='p001.xhtml'
+file2='p001.xhtml'
+host='172.17.67.176:9000'
+s3_key='AKIAIOSFODNN7EXAMPLE'
+s3_secret='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
+
+resource="/${bucket}/${file}"
+content_type="application/octet-stream"
+date=`date -R`
+_signature="GET\n\n${content_type}\n${date}\n${resource}"
+signature=`echo -en ${_signature} | openssl sha1 -hmac ${s3_secret} -binary | base64`
+
+curl -sb -X GET -T "${file}" \
+          -H "Host: $host" \
+          -H "Date: ${date}" \
+          -H "Content-Type: ${content_type}" \
+          -H "Authorization: AWS ${s3_key}:${signature}" \
+          http://$host${resource} \
+          > /tmp/${file2}
+#./darknet detect cfg/yolov3.cfg yolov3.weights "${OUT}" -out  "/tmp/$IMAGE" 
+#add > /tmp/output.txt for mqtt
+#./darknet detect cfg/yolov3.cfg yolov3.weights "${OUT}" -out  "/tmp/output" > pipe:1
+python -m aeneas.tools.execute_task \
+   "${OUT}" \
+   /tmp/${file2} \
+   "task_language=eng|os_task_file_format=json|is_text_type=plain" \
+   "/tmp/sample.json" 
+
+#mosquitto_pub -h 172.17.67.176  -f /tmp/output.txt -t yoloOut
+rm ${OUT}
+#curl -i -H "name:$IMAGE" --data-binary  @/tmp/$IMAGE.png  -X POST  http://192.168.1.249:8002/inserted
+
+

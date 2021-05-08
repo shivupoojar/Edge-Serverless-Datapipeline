@@ -1,0 +1,15 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  bash-aeneas:
+    lang: bash-streaming
+    handler: ./bash-aeneas
+    image: shivupoojar/bash-aeneas:latest
+    environment:
+      write_timeout: 2m
+      read_timeout: 2m
+      exec_timeout: 300s
+
+

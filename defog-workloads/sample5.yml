@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  sample5:
+    lang: python3-http-debian
+    handler: ./sample5
+    image: shivupoojar/sample5:latest
+
